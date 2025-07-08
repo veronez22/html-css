@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #3B3936,#486966);
+}
+main{
+    font-family: 'montserrat';
+    background-color: aliceblue;
+    width: 70%;
+    padding: 12px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.245);
+}
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 12px;
+}
