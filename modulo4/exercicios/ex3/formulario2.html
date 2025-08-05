@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario2</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iusu">Nome: </label>
+            <input type="text" name="iusu" id="iusu" required minlength="4" required maxlength="25" size="15" placeholder="Digite o usuario">
+        </p>
+        <p>
+            <label for="isenha">Senha: </label>
+            <input type="password" name="isenha" id="isenha" required minlength="8" placeholder="Digite a senha">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
